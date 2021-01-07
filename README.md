@@ -4,4 +4,4 @@ This is an alternative caps generator. Alternative caps is when you tYpE LiKe tH
 
 HTML, CSS, JS.
 
-Live at: TBC
+Live at: https://alternacaps.netlify.app/
