@@ -1,15 +1,18 @@
-function alternacaps(string) {
+let userInput;
+function alternacaps(userInput) {
+    userInput = document.getElementById("user-input").value;
     let alternacapsArray = [];
-    for (i = 0; i < string.length; i++) {
+    for (i = 0; i < userInput.length; i++) {
         if (i == 0) {
-            alternacapsArray.push(string[i].toLowerCase());
+            alternacapsArray.push(userInput[i].toLowerCase());
         } else if (i % 2 !== 0) {
-            alternacapsArray.push(string[i].toUpperCase());
+            alternacapsArray.push(userInput[i].toUpperCase());
         } else if (i % 2 == 0) {
-            alternacapsArray.push(string[i].toLowerCase());
+            alternacapsArray.push(userInput[i].toLowerCase());
         }
     }
-    let result = document.createElement("p");
+    let result = document.createElement("h3");
+    result.id = "result";
     result.innerHTML = alternacapsArray.join("");
     document.getElementById("results-div").appendChild(result);
 }
