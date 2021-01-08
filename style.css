@@ -1,5 +1,5 @@
 body {
-    background: white;
+    background: rgb(245, 245, 245);
     background-size: auto;
     margin: 0;
 }
@@ -22,7 +22,7 @@ body {
     padding-right: 35px;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 570px) {
     .form-area {
         width: 100%;
         margin: 0;
@@ -35,17 +35,6 @@ body {
 
 #logo {
     width: 100%;
-}
-
-@media only screen and (max-width: 800px) {
-    #logo-area {
-        width: 100%;
-        margin: auto;
-    }
-    #logo {
-        width: 100%;
-        margin: auto;
-    }
 }
 
 .input-div {
@@ -125,4 +114,8 @@ a {
 #result-heading {
     font-weight: bold;
     margin-bottom: 30px;
+}
+
+#result {
+    font-size: 20px;
 }

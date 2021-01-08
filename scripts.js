@@ -11,7 +11,7 @@ function alternacaps(userInput) {
             alternacapsArray.push(userInput[i].toLowerCase());
         }
     }
-    let result = document.createElement("h3");
+    let result = document.createElement("p");
     result.id = "result";
     result.innerHTML = alternacapsArray.join("");
     document.getElementById("results-div").appendChild(result);
